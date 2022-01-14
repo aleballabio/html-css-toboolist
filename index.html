@@ -1,105 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
-    <link rel="stylesheet" href="styles/stile.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toboolist</title>
+        <link rel="stylesheet" href="styles/stile.css">
+    </head>
 
-<body>
-    <!-- Titolo e Logo -->
-    <header>
-        <img class="logo" src="img/Logo.png" alt="Logo Toboolist">
-        <h1 class="titolo">Toboolist</h1>
-    </header>
-    <main>
-        <div class="contenitore">
-            <button class="addtask button">Add Task</button>
-            <button class="newtask button">Add Selection</button>
-        </div>
-        <div class="contenitore2">
-            <section class="sezionelista">
-                <span>&#9660;</span>
-                <h2>New Task</h2>
-                <div class="task">
+    <body>
+        <!-- Titolo e Logo -->
+        <header>
+            <img class="logo" src="img/Logo.png" alt="Logo Toboolist">
+            <h1 class="titolo">Toboolist</h1>
+        </header>
+        <main>
+            <div class="contenitore">
+                <button class="addtask button">Add Task</button>
+                <button class="newtask button">Add Selection</button>
+            </div>
+            <div class="contenitore2">
+
+                <!-- New Task -->
+                <section class="sezionelista">
+                    <span>&#9660;</span>
+                    <h2>New Task</h2>
                     <div class="task">
-                        <span class="check">&checkmark;</span>
-                        <span class="writtentask">Quaterly Newstletter</span>
-                        <span class="tags editorial">Editorial</span>
-                </div>
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
-            </section>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Quaterly Newstletter</span>
+                            <span class="tags editorial">Editorial</span>
+                        </div>
+                </section>
 
-            <section class="sezionelista">
-                <span>&#9660;</span>
-                <h2>New Task</h2>
-                <div class="task">
+                <!-- Today -->
+                <section class="sezionelista">
+                    <span>&#9660;</span>
+                    <h2>Today</h2>
                     <div class="task">
-                        <span class="check">&checkmark;</span>
-                        <span class="writtentask">Quaterly Newstletter</span>
-                        <span class="tags editorial">Editorial</span>
-                </div>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Recruiting Blog Post</span>
+                            <span class="tags editorial">Editorial</span>
+                        </div>
 
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Mobile app launch</span>
+                            <span class="tags q1goals">Q1 Goals</span>
+                        </div>
 
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
-                
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
-            </section>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Interview John H.</span>
+                            <span class="tags recruiting">Recruiting</span>
+                        </div>
 
-            <section class="sezionelista">
-                <span>&#9660;</span>
-                <h2>New Task</h2>
-                <div class="task">
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Summit update to mobile storefronts</span>
+                            <span class="tags mobile">Mobile</span>
+                        </div>
+                </section>
+
+                <!-- Upcoming -->
+                <section class="sezionelista">
+                    <span>&#9660;</span>
+                    <h2>Upcoming</h2>
                     <div class="task">
-                        <span class="check">&checkmark;</span>
-                        <span class="writtentask">Quaterly Newstletter</span>
-                        <span class="tags editorial">Editorial</span>
-                </div>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Schedule meeting with Alex</span>
+                        </div>
 
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Homepage refresh</span>
+                            <span class="tags website">Website</span>
+                        </div>
 
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Onboard new Sales team members</span>
+                            <span class="tags sales">Sales</span>
+                        </div>
 
-                <div class="task">
-                    <span class="check">&checkmark;</span>
-                    <span class="writtentask">Quaterly Newstletter</span>
-                    <span class="tags editorial">Editorial</span>
-                </div>
-            </section>
-                
-
-        </div>
-    </main>
-
-
-</body>
-
+                        <div class="task">
+                            <span class="check">&checkmark;</span>
+                            <span class="writtentask">Review editorial calendar</span>
+                            <span class="tags editorial">Editorial</span>
+                        </div>
+                </section>
+            </div>
+        </main>
+    </body>
 </html>
