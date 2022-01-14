@@ -28,6 +28,26 @@ header {
     font-size: 2.5em;
 }
 
-main {
-    text-align: center;
+.contenitore {
+    background-color: white;
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.addtask {
+    
+}
+
+.newtask {
+
+}
+
+.contenitore2 {
+    background-color: white;
+    width: 60%;
+    height: 740px;
+    margin: auto;
+    margin-top: 4px;
 }
