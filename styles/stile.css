@@ -31,9 +31,15 @@ header {
 .contenitore {
     background-color: white;
     width: 60%;
-    height: 60px;
+    line-height: 60px;
     margin: auto;
     margin-top: 50px;
+    padding-left: 40px;
+}
+
+.button {
+        vertical-align: middle;
+        display: inline;
 }
 
 .addtask {
@@ -50,4 +56,15 @@ header {
     height: 740px;
     margin: auto;
     margin-top: 4px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.sezionelista {
+    margin-bottom: 20px;
+}
+
+h2 {
+    display: inline-block;
+    line-height: 100px;
 }
