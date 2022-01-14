@@ -76,9 +76,9 @@ h2 {
 .check {
     font-size: 12px;
     border-radius: 100%;
-    border-width: thin;
+    border-width: 2px;
     border-style: solid;
-    padding: 2px 4px;
+    padding: 2px 4px 3px;
     margin-right: 5px;
 }
 .done {
