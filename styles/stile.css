@@ -34,19 +34,33 @@ header {
     line-height: 60px;
     margin: auto;
     margin-top: 50px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .button {
         vertical-align: middle;
         display: inline;
+        margin-right: 2px;
 }
 
 .addtask {
-    
+    background-color: rgba(71,173,241,255);
+    border-radius: 5px;
+    color: white;
+    border: solid rgba(71,173,241,255) 1px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
-.newtask {
+.addsection {
+        background-color: white;
+        border-radius: 5px;
+        color: lightgray;
+        border: solid lightgray 1px;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+        font-weight: bold;
 
 }
 
