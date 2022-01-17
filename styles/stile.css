@@ -14,6 +14,7 @@ header {
     width: 100%;
     height: 70px;
     background-color: white;
+    
 }
 
 .logo {
@@ -24,10 +25,8 @@ header {
 
 .titolo {
     display: inline-block;
-    vertical-align: middle;
     font-size: 2.5em;
-    vertical-align: middle;
-    line-height: 1.8rem;
+    vertical-align: bottom;
 }
 
 .contenitore {
